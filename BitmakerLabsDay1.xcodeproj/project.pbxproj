@@ -14,6 +14,7 @@
 		E4CB49791AD3106F006F6D35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4CB49781AD3106F006F6D35 /* Images.xcassets */; };
 		E4CB497C1AD3106F006F6D35 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4CB497A1AD3106F006F6D35 /* LaunchScreen.xib */; };
 		E4CB49881AD3106F006F6D35 /* BitmakerLabsDay1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CB49871AD3106F006F6D35 /* BitmakerLabsDay1Tests.m */; };
+		E4CB49931AD31A3D006F6D35 /* Feature.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CB49921AD31A3D006F6D35 /* Feature.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		E4CB49811AD3106F006F6D35 /* BitmakerLabsDay1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitmakerLabsDay1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4CB49861AD3106F006F6D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4CB49871AD3106F006F6D35 /* BitmakerLabsDay1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitmakerLabsDay1Tests.m; sourceTree = "<group>"; };
+		E4CB49911AD31A3D006F6D35 /* Feature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Feature.h; path = BitmakerLabsDay1/Feature.h; sourceTree = "<group>"; };
+		E4CB49921AD31A3D006F6D35 /* Feature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Feature.m; path = BitmakerLabsDay1/Feature.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		E4CB495F1AD3106F006F6D35 = {
 			isa = PBXGroup;
 			children = (
+				E4CB49941AD31A4F006F6D35 /* Model */,
 				E4CB496A1AD3106F006F6D35 /* BitmakerLabsDay1 */,
 				E4CB49841AD3106F006F6D35 /* BitmakerLabsDay1Tests */,
 				E4CB49691AD3106F006F6D35 /* Products */,
@@ -117,6 +121,15 @@
 				E4CB49861AD3106F006F6D35 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4CB49941AD31A4F006F6D35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4CB49911AD31A3D006F6D35 /* Feature.h */,
+				E4CB49921AD31A3D006F6D35 /* Feature.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4CB49931AD31A3D006F6D35 /* Feature.m in Sources */,
 				E4CB49741AD3106F006F6D35 /* ViewController.m in Sources */,
 				E4CB49711AD3106F006F6D35 /* AppDelegate.m in Sources */,
 				E4CB496E1AD3106F006F6D35 /* main.m in Sources */,
