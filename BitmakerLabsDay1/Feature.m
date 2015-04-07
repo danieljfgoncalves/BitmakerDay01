@@ -10,4 +10,6 @@
 
 @implementation Feature
 
+//checking if commit is updating remotely.
+
 @end
